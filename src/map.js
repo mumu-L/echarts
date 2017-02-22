@@ -7,7 +7,7 @@ var Map=Vue.extend({
     template,
     ready(){
         var myChart=echarts.init(document.getElementById('main'))
-        $.get('/datas/china.json',function(chinaJson){
+        $.get('/echarts/datas/china.json',function(chinaJson){
           echarts.registerMap('china', chinaJson)
           function randomData() {
             return Math.round(Math.random()*1000);

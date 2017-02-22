@@ -8,7 +8,7 @@ var Scatter = Vue.extend({
     template,
     ready(){
          var chart = echarts.init(document.getElementById('main2'));
-         $.get('/datas/china.json', function (chinaJson) {
+         $.get('/echarts/datas/china.json', function (chinaJson) {
             echarts.registerMap('china', chinaJson);
             var data = [
                  {name: '海门', value: 9},
