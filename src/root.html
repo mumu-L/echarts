@@ -1,0 +1,23 @@
+<div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="position:relative" role="navigation">
+      <div class="container">
+        <div class="col-xs-4">
+           <div class="navbar-header">
+              <a class="navbar-brand" href="#">李林</a>
+           </div>
+        </div>
+        <div class="col-xs-8">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li :class="active('maps')" @click="menu('maps',$event)"><a href="#">地图</a></li>
+                <li :class="active('scatters')" @click="menu('scatters',$event)"><a href="#">空气质量图</a></li>
+                <li :class="active('bars')" @click="menu('bars',$event)"><a href="#">柱状图</a></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+    <component :is="view"></component>
+    <bottom></bottom>
+</div>

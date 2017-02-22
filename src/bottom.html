@@ -1,0 +1,28 @@
+<div>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>教育经历</h2>
+          <p>表示上学和实习的情况</p>
+          <p @click="notify('maps',$event)"><a class="btn btn-default" href="#" role="button">点击查看 &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>全国空气质量图</h2>
+          <p>表示全国各地区的空气质量</p>
+          <p @click="notify('scatters',$event)"><a class="btn btn-default" href="#" role="button">点击查看 &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>柱状图</h2>
+          <p>表示每个时间段的状态或者数目</p>
+          <p @click="notify('bars',$event)"><a class="btn btn-default" href="#" role="button">点击查看 &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2014</p>
+      </footer>
+    </div> <!-- /container -->
+</div>

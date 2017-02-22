@@ -1,0 +1,16 @@
+{
+    "items":[
+        {
+            "lb":"柱状图",
+            "tx":"Histogram"
+        },
+        {
+            "lb":"折线图",
+            "tx":"Line"
+        },
+        {
+            "lb":"饼状图",
+            "tx":"Columnar"
+        }
+    ]
+}

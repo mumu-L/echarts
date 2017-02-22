@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-plugins</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+       
+         <div id="appRoot">
+             
+         </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!--
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    -->
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="/dist/build.js"></script>
+    <script src="https://cdn.bootcss.com/echarts/3.2.2/echarts.min.js"></script>
+    <script src="https://echarts.baidu.com/asset/map/js/china.js"></script>
+  </body>
+</html>
